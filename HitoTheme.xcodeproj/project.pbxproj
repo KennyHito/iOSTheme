@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D8DBA41F0DDAE70032B264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBA31F0DDAE70032B264 /* main.m */; };
+		18D8DBA71F0DDAE70032B264 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBA61F0DDAE70032B264 /* AppDelegate.m */; };
+		18D8DBAD1F0DDAE70032B264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D8DBAB1F0DDAE70032B264 /* Main.storyboard */; };
+		18D8DBAF1F0DDAE70032B264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D8DBAE1F0DDAE70032B264 /* Assets.xcassets */; };
+		18D8DBB21F0DDAE70032B264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D8DBB01F0DDAE70032B264 /* LaunchScreen.storyboard */; };
+		18D8DBBD1F0DDAE70032B264 /* HitoThemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBBC1F0DDAE70032B264 /* HitoThemeTests.m */; };
+		18D8DBC81F0DDAE70032B264 /* HitoThemeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBC71F0DDAE70032B264 /* HitoThemeUITests.m */; };
+		18D8DBF51F0E07A50032B264 /* HitoNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBF41F0E07A50032B264 /* HitoNavViewController.m */; };
+		18D8DBFA1F0E07AD0032B264 /* HitoTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBF71F0E07AD0032B264 /* HitoTabBar.m */; };
+		18D8DBFB1F0E07AD0032B264 /* HitoTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBF91F0E07AD0032B264 /* HitoTabBarViewController.m */; };
+		18D8DC041F0E07BC0032B264 /* HitoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBFE1F0E07BC0032B264 /* HitoViewController.m */; };
+		18D8DC051F0E07BC0032B264 /* nextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DC001F0E07BC0032B264 /* nextViewController.m */; };
+		18D8DC061F0E07BC0032B264 /* UIView+HitoCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DC031F0E07BC0032B264 /* UIView+HitoCategory.m */; };
+		18D8DC091F0E0E5E0032B264 /* centerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DC081F0E0E5E0032B264 /* centerViewController.m */; };
+		18D8DC0D1F0E17EC0032B264 /* NSObject+HitoThemeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DC0C1F0E17EC0032B264 /* NSObject+HitoThemeCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18D8DBB91F0DDAE70032B264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D8DB971F0DDAE70032B264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D8DB9E1F0DDAE70032B264;
+			remoteInfo = HitoTheme;
+		};
+		18D8DBC41F0DDAE70032B264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D8DB971F0DDAE70032B264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D8DB9E1F0DDAE70032B264;
+			remoteInfo = HitoTheme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18D8DB9F1F0DDAE70032B264 /* HitoTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitoTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D8DBA31F0DDAE70032B264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D8DBA51F0DDAE70032B264 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D8DBA61F0DDAE70032B264 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18D8DBAC1F0DDAE70032B264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D8DBAE1F0DDAE70032B264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D8DBB11F0DDAE70032B264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D8DBB31F0DDAE70032B264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D8DBB81F0DDAE70032B264 /* HitoThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitoThemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D8DBBC1F0DDAE70032B264 /* HitoThemeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitoThemeTests.m; sourceTree = "<group>"; };
+		18D8DBBE1F0DDAE70032B264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D8DBC31F0DDAE70032B264 /* HitoThemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitoThemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D8DBC71F0DDAE70032B264 /* HitoThemeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitoThemeUITests.m; sourceTree = "<group>"; };
+		18D8DBC91F0DDAE70032B264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D8DBDE1F0DDB5C0032B264 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18D8DBF31F0E07A50032B264 /* HitoNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitoNavViewController.h; sourceTree = "<group>"; };
+		18D8DBF41F0E07A50032B264 /* HitoNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitoNavViewController.m; sourceTree = "<group>"; };
+		18D8DBF61F0E07AD0032B264 /* HitoTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitoTabBar.h; sourceTree = "<group>"; };
+		18D8DBF71F0E07AD0032B264 /* HitoTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitoTabBar.m; sourceTree = "<group>"; };
+		18D8DBF81F0E07AD0032B264 /* HitoTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitoTabBarViewController.h; sourceTree = "<group>"; };
+		18D8DBF91F0E07AD0032B264 /* HitoTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitoTabBarViewController.m; sourceTree = "<group>"; };
+		18D8DBFD1F0E07BC0032B264 /* HitoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitoViewController.h; sourceTree = "<group>"; };
+		18D8DBFE1F0E07BC0032B264 /* HitoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitoViewController.m; sourceTree = "<group>"; };
+		18D8DBFF1F0E07BC0032B264 /* nextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nextViewController.h; sourceTree = "<group>"; };
+		18D8DC001F0E07BC0032B264 /* nextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nextViewController.m; sourceTree = "<group>"; };
+		18D8DC021F0E07BC0032B264 /* UIView+HitoCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HitoCategory.h"; sourceTree = "<group>"; };
+		18D8DC031F0E07BC0032B264 /* UIView+HitoCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HitoCategory.m"; sourceTree = "<group>"; };
+		18D8DC071F0E0E5E0032B264 /* centerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = centerViewController.h; sourceTree = "<group>"; };
+		18D8DC081F0E0E5E0032B264 /* centerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = centerViewController.m; sourceTree = "<group>"; };
+		18D8DC0B1F0E17EC0032B264 /* NSObject+HitoThemeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HitoThemeCategory.h"; sourceTree = "<group>"; };
+		18D8DC0C1F0E17EC0032B264 /* NSObject+HitoThemeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HitoThemeCategory.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D8DB9C1F0DDAE70032B264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D8DBB51F0DDAE70032B264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D8DBC01F0DDAE70032B264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D8DB961F0DDAE70032B264 = {
+			isa = PBXGroup;
+			children = (
+				18D8DBA11F0DDAE70032B264 /* HitoTheme */,
+				18D8DBBB1F0DDAE70032B264 /* HitoThemeTests */,
+				18D8DBC61F0DDAE70032B264 /* HitoThemeUITests */,
+				18D8DBA01F0DDAE70032B264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D8DBA01F0DDAE70032B264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D8DB9F1F0DDAE70032B264 /* HitoTheme.app */,
+				18D8DBB81F0DDAE70032B264 /* HitoThemeTests.xctest */,
+				18D8DBC31F0DDAE70032B264 /* HitoThemeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D8DBA11F0DDAE70032B264 /* HitoTheme */ = {
+			isa = PBXGroup;
+			children = (
+				18D8DBA51F0DDAE70032B264 /* AppDelegate.h */,
+				18D8DBA61F0DDAE70032B264 /* AppDelegate.m */,
+				18D8DBDE1F0DDB5C0032B264 /* PrefixHeader.pch */,
+				18D8DC0A1F0E17740032B264 /* HitoTheme */,
+				18D8DBFC1F0E07BC0032B264 /* controller */,
+				18D8DC011F0E07BC0032B264 /* view */,
+				18D8DBF21F0E07530032B264 /* nav */,
+				18D8DBF11F0E073D0032B264 /* tabBar */,
+				18D8DBAB1F0DDAE70032B264 /* Main.storyboard */,
+				18D8DBAE1F0DDAE70032B264 /* Assets.xcassets */,
+				18D8DBB01F0DDAE70032B264 /* LaunchScreen.storyboard */,
+				18D8DBB31F0DDAE70032B264 /* Info.plist */,
+				18D8DBA21F0DDAE70032B264 /* Supporting Files */,
+			);
+			path = HitoTheme;
+			sourceTree = "<group>";
+		};
+		18D8DBA21F0DDAE70032B264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D8DBA31F0DDAE70032B264 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D8DBBB1F0DDAE70032B264 /* HitoThemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				18D8DBBC1F0DDAE70032B264 /* HitoThemeTests.m */,
+				18D8DBBE1F0DDAE70032B264 /* Info.plist */,
+			);
+			path = HitoThemeTests;
+			sourceTree = "<group>";
+		};
+		18D8DBC61F0DDAE70032B264 /* HitoThemeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18D8DBC71F0DDAE70032B264 /* HitoThemeUITests.m */,
+				18D8DBC91F0DDAE70032B264 /* Info.plist */,
+			);
+			path = HitoThemeUITests;
+			sourceTree = "<group>";
+		};
+		18D8DBF11F0E073D0032B264 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				18D8DBF81F0E07AD0032B264 /* HitoTabBarViewController.h */,
+				18D8DBF91F0E07AD0032B264 /* HitoTabBarViewController.m */,
+				18D8DBF61F0E07AD0032B264 /* HitoTabBar.h */,
+				18D8DBF71F0E07AD0032B264 /* HitoTabBar.m */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+		18D8DBF21F0E07530032B264 /* nav */ = {
+			isa = PBXGroup;
+			children = (
+				18D8DBF31F0E07A50032B264 /* HitoNavViewController.h */,
+				18D8DBF41F0E07A50032B264 /* HitoNavViewController.m */,
+			);
+			path = nav;
+			sourceTree = "<group>";
+		};
+		18D8DBFC1F0E07BC0032B264 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				18D8DBFD1F0E07BC0032B264 /* HitoViewController.h */,
+				18D8DBFE1F0E07BC0032B264 /* HitoViewController.m */,
+				18D8DBFF1F0E07BC0032B264 /* nextViewController.h */,
+				18D8DC001F0E07BC0032B264 /* nextViewController.m */,
+				18D8DC071F0E0E5E0032B264 /* centerViewController.h */,
+				18D8DC081F0E0E5E0032B264 /* centerViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		18D8DC011F0E07BC0032B264 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18D8DC021F0E07BC0032B264 /* UIView+HitoCategory.h */,
+				18D8DC031F0E07BC0032B264 /* UIView+HitoCategory.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		18D8DC0A1F0E17740032B264 /* HitoTheme */ = {
+			isa = PBXGroup;
+			children = (
+				18D8DC0B1F0E17EC0032B264 /* NSObject+HitoThemeCategory.h */,
+				18D8DC0C1F0E17EC0032B264 /* NSObject+HitoThemeCategory.m */,
+			);
+			path = HitoTheme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D8DB9E1F0DDAE70032B264 /* HitoTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D8DBCC1F0DDAE70032B264 /* Build configuration list for PBXNativeTarget "HitoTheme" */;
+			buildPhases = (
+				18D8DB9B1F0DDAE70032B264 /* Sources */,
+				18D8DB9C1F0DDAE70032B264 /* Frameworks */,
+				18D8DB9D1F0DDAE70032B264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HitoTheme;
+			productName = HitoTheme;
+			productReference = 18D8DB9F1F0DDAE70032B264 /* HitoTheme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18D8DBB71F0DDAE70032B264 /* HitoThemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D8DBCF1F0DDAE70032B264 /* Build configuration list for PBXNativeTarget "HitoThemeTests" */;
+			buildPhases = (
+				18D8DBB41F0DDAE70032B264 /* Sources */,
+				18D8DBB51F0DDAE70032B264 /* Frameworks */,
+				18D8DBB61F0DDAE70032B264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D8DBBA1F0DDAE70032B264 /* PBXTargetDependency */,
+			);
+			name = HitoThemeTests;
+			productName = HitoThemeTests;
+			productReference = 18D8DBB81F0DDAE70032B264 /* HitoThemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18D8DBC21F0DDAE70032B264 /* HitoThemeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D8DBD21F0DDAE70032B264 /* Build configuration list for PBXNativeTarget "HitoThemeUITests" */;
+			buildPhases = (
+				18D8DBBF1F0DDAE70032B264 /* Sources */,
+				18D8DBC01F0DDAE70032B264 /* Frameworks */,
+				18D8DBC11F0DDAE70032B264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D8DBC51F0DDAE70032B264 /* PBXTargetDependency */,
+			);
+			name = HitoThemeUITests;
+			productName = HitoThemeUITests;
+			productReference = 18D8DBC31F0DDAE70032B264 /* HitoThemeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D8DB971F0DDAE70032B264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = KennyHito;
+				TargetAttributes = {
+					18D8DB9E1F0DDAE70032B264 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3PV6M3KT2L;
+						ProvisioningStyle = Automatic;
+					};
+					18D8DBB71F0DDAE70032B264 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3PV6M3KT2L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18D8DB9E1F0DDAE70032B264;
+					};
+					18D8DBC21F0DDAE70032B264 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3PV6M3KT2L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18D8DB9E1F0DDAE70032B264;
+					};
+				};
+			};
+			buildConfigurationList = 18D8DB9A1F0DDAE70032B264 /* Build configuration list for PBXProject "HitoTheme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D8DB961F0DDAE70032B264;
+			productRefGroup = 18D8DBA01F0DDAE70032B264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D8DB9E1F0DDAE70032B264 /* HitoTheme */,
+				18D8DBB71F0DDAE70032B264 /* HitoThemeTests */,
+				18D8DBC21F0DDAE70032B264 /* HitoThemeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D8DB9D1F0DDAE70032B264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D8DBB21F0DDAE70032B264 /* LaunchScreen.storyboard in Resources */,
+				18D8DBAF1F0DDAE70032B264 /* Assets.xcassets in Resources */,
+				18D8DBAD1F0DDAE70032B264 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D8DBB61F0DDAE70032B264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D8DBC11F0DDAE70032B264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D8DB9B1F0DDAE70032B264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D8DC091F0E0E5E0032B264 /* centerViewController.m in Sources */,
+				18D8DC041F0E07BC0032B264 /* HitoViewController.m in Sources */,
+				18D8DBA71F0DDAE70032B264 /* AppDelegate.m in Sources */,
+				18D8DBFB1F0E07AD0032B264 /* HitoTabBarViewController.m in Sources */,
+				18D8DBF51F0E07A50032B264 /* HitoNavViewController.m in Sources */,
+				18D8DBA41F0DDAE70032B264 /* main.m in Sources */,
+				18D8DC051F0E07BC0032B264 /* nextViewController.m in Sources */,
+				18D8DC0D1F0E17EC0032B264 /* NSObject+HitoThemeCategory.m in Sources */,
+				18D8DC061F0E07BC0032B264 /* UIView+HitoCategory.m in Sources */,
+				18D8DBFA1F0E07AD0032B264 /* HitoTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D8DBB41F0DDAE70032B264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D8DBBD1F0DDAE70032B264 /* HitoThemeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D8DBBF1F0DDAE70032B264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D8DBC81F0DDAE70032B264 /* HitoThemeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18D8DBBA1F0DDAE70032B264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D8DB9E1F0DDAE70032B264 /* HitoTheme */;
+			targetProxy = 18D8DBB91F0DDAE70032B264 /* PBXContainerItemProxy */;
+		};
+		18D8DBC51F0DDAE70032B264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D8DB9E1F0DDAE70032B264 /* HitoTheme */;
+			targetProxy = 18D8DBC41F0DDAE70032B264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18D8DBAB1F0DDAE70032B264 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D8DBAC1F0DDAE70032B264 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D8DBB01F0DDAE70032B264 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D8DBB11F0DDAE70032B264 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D8DBCA1F0DDAE70032B264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18D8DBCB1F0DDAE70032B264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D8DBCD1F0DDAE70032B264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3PV6M3KT2L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HitoTheme/PrefixHeader.pch";
+				INFOPLIST_FILE = HitoTheme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KennyHito.HitoTheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18D8DBCE1F0DDAE70032B264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3PV6M3KT2L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HitoTheme/PrefixHeader.pch";
+				INFOPLIST_FILE = HitoTheme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KennyHito.HitoTheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18D8DBD01F0DDAE70032B264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3PV6M3KT2L;
+				INFOPLIST_FILE = HitoThemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KennyHito.HitoThemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HitoTheme.app/HitoTheme";
+			};
+			name = Debug;
+		};
+		18D8DBD11F0DDAE70032B264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3PV6M3KT2L;
+				INFOPLIST_FILE = HitoThemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KennyHito.HitoThemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HitoTheme.app/HitoTheme";
+			};
+			name = Release;
+		};
+		18D8DBD31F0DDAE70032B264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3PV6M3KT2L;
+				INFOPLIST_FILE = HitoThemeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KennyHito.HitoThemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HitoTheme;
+			};
+			name = Debug;
+		};
+		18D8DBD41F0DDAE70032B264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3PV6M3KT2L;
+				INFOPLIST_FILE = HitoThemeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KennyHito.HitoThemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HitoTheme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D8DB9A1F0DDAE70032B264 /* Build configuration list for PBXProject "HitoTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D8DBCA1F0DDAE70032B264 /* Debug */,
+				18D8DBCB1F0DDAE70032B264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D8DBCC1F0DDAE70032B264 /* Build configuration list for PBXNativeTarget "HitoTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D8DBCD1F0DDAE70032B264 /* Debug */,
+				18D8DBCE1F0DDAE70032B264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18D8DBCF1F0DDAE70032B264 /* Build configuration list for PBXNativeTarget "HitoThemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D8DBD01F0DDAE70032B264 /* Debug */,
+				18D8DBD11F0DDAE70032B264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18D8DBD21F0DDAE70032B264 /* Build configuration list for PBXNativeTarget "HitoThemeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D8DBD31F0DDAE70032B264 /* Debug */,
+				18D8DBD41F0DDAE70032B264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D8DB971F0DDAE70032B264 /* Project object */;
+}

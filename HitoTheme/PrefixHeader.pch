@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  HitoTheme
+//
+//  Created by Apple on 2017/7/6.
+//  Copyright © 2017年 KennyHito. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "HitoTabBarViewController.h"
+#import "HitoTabBar.h"
+#import "HitoNavViewController.h"
+#import "HitoViewController.h"
+#import "nextViewController.h"
+#import "centerViewController.h"
+#import "NSObject+HitoThemeCategory.h"
+
+//屏幕的宽高
+#define HitoScreenW [UIScreen mainScreen].bounds.size.width
+#define HitoScreenH [UIScreen mainScreen].bounds.size.height
+
+//实例化
+#define HitoAllocInit(Controller,cName) Controller *cName = [[Controller alloc]init]
+
+
+#endif /* PrefixHeader_pch */
