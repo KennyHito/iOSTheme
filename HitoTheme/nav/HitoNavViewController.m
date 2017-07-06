@@ -24,7 +24,7 @@
         UINavigationBar *navBar = [[UINavigationBar alloc] init];
         // 设置主题颜色
         [navBar Hito_addToThemeColorPool:@"barTintColor"];
-        navBar.tintColor = [UIColor whiteColor];
+        navBar.tintColor = [UIColor blackColor];
         // 设置字体颜色
         NSDictionary *attributes = @{ NSForegroundColorAttributeName: [UIColor blackColor],NSFontAttributeName: [UIFont boldSystemFontOfSize:20]};
         navBar.titleTextAttributes = attributes;
@@ -34,9 +34,9 @@
 }
 
 #pragma mark - 设置状态栏白色
-- (UIStatusBarStyle)preferredStatusBarStyle {
-    return UIStatusBarStyleLightContent;
-}
+//- (UIStatusBarStyle)preferredStatusBarStyle {
+//    return UIStatusBarStyleLightContent;
+//}
 
 
 @end

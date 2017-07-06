@@ -78,6 +78,7 @@ static NSString * const reuseIdentifier = @"Cell";
     HitoAllocInit(nextViewController, nextVC);
     //设置代理
     nextVC.delegate = self;
+    nextVC.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:nextVC animated:YES];
 }
 
