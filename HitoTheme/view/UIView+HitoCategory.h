@@ -16,7 +16,10 @@
 
 @interface UIView (HitoCategory)
 
-
+@property (nonatomic, assign) CGFloat HitoX;
+@property (nonatomic, assign) CGFloat HitoY;
+@property (nonatomic, assign) CGFloat HitoWidth;
+@property (nonatomic, assign) CGFloat HitoHeight;
 
 
 @end

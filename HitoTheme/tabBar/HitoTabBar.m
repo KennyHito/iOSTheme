@@ -7,6 +7,7 @@
 //
 
 #import "HitoTabBar.h"
+#import "UIView+HitoCategory.h"
 #define ControllerCount 4
 #define TabBarHeight 49
 
@@ -47,7 +48,15 @@
     [super layoutSubviews];
     
     CGFloat width = self.frame.size.width / (ControllerCount + 1);
-     self.addButton.frame = CGRectMake((HitoScreenW - width)* 0.5, 0, width, TabBarHeight);
+    //方式一:直接改变addButton的坐标;
+    //self.addButton.frame = CGRectMake((HitoScreenW - width)* 0.5, 0, width, TabBarHeight);
+
+    //方式二:通过UIView类别的方式进行改变addButton的坐标(这种方式看着比较高大上,建议采用这种方式);
+    self.addButton.HitoX = (HitoScreenW - width)* 0.5;
+    self.addButton.HitoY = 0;
+    self.addButton.HitoWidth = width;
+    self.addButton.HitoHeight = TabBarHeight;
+    
     // 下标
     NSUInteger index = 0;
     // 判断是否为控制器按钮
