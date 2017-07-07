@@ -20,6 +20,8 @@
 @property (nonatomic, assign) CGFloat HitoY;
 @property (nonatomic, assign) CGFloat HitoWidth;
 @property (nonatomic, assign) CGFloat HitoHeight;
+@property (nonatomic, assign) CGFloat centerX;
+@property (nonatomic, assign) CGFloat centerY;
 
 
 @end

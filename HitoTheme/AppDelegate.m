@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  HitoTheme
 //
-//  Created by Apple on 2017/7/6.
+//  Created by Apple on 2017/7/7.
 //  Copyright © 2017年 KennyHito. All rights reserved.
 //
 
@@ -16,12 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     HitoTabBarViewController * tabBar = [[HitoTabBarViewController alloc]init];
     self.window.rootViewController = tabBar;
     [self.window makeKeyAndVisible];
-    
     return YES;
 }
 

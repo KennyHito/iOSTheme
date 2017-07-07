@@ -2,7 +2,7 @@
 //  HitoThemeUITests.m
 //  HitoThemeUITests
 //
-//  Created by Apple on 2017/7/6.
+//  Created by Apple on 2017/7/7.
 //  Copyright © 2017年 KennyHito. All rights reserved.
 //
 

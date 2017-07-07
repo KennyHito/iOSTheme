@@ -7,90 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18D8DBA41F0DDAE70032B264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBA31F0DDAE70032B264 /* main.m */; };
-		18D8DBA71F0DDAE70032B264 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBA61F0DDAE70032B264 /* AppDelegate.m */; };
-		18D8DBAD1F0DDAE70032B264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D8DBAB1F0DDAE70032B264 /* Main.storyboard */; };
-		18D8DBAF1F0DDAE70032B264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D8DBAE1F0DDAE70032B264 /* Assets.xcassets */; };
-		18D8DBB21F0DDAE70032B264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D8DBB01F0DDAE70032B264 /* LaunchScreen.storyboard */; };
-		18D8DBBD1F0DDAE70032B264 /* HitoThemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBBC1F0DDAE70032B264 /* HitoThemeTests.m */; };
-		18D8DBC81F0DDAE70032B264 /* HitoThemeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBC71F0DDAE70032B264 /* HitoThemeUITests.m */; };
-		18D8DBF51F0E07A50032B264 /* HitoNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBF41F0E07A50032B264 /* HitoNavViewController.m */; };
-		18D8DBFA1F0E07AD0032B264 /* HitoTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBF71F0E07AD0032B264 /* HitoTabBar.m */; };
-		18D8DBFB1F0E07AD0032B264 /* HitoTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBF91F0E07AD0032B264 /* HitoTabBarViewController.m */; };
-		18D8DC041F0E07BC0032B264 /* HitoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DBFE1F0E07BC0032B264 /* HitoViewController.m */; };
-		18D8DC051F0E07BC0032B264 /* nextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DC001F0E07BC0032B264 /* nextViewController.m */; };
-		18D8DC061F0E07BC0032B264 /* UIView+HitoCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DC031F0E07BC0032B264 /* UIView+HitoCategory.m */; };
-		18D8DC091F0E0E5E0032B264 /* centerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DC081F0E0E5E0032B264 /* centerViewController.m */; };
-		18D8DC0D1F0E17EC0032B264 /* NSObject+HitoThemeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DC0C1F0E17EC0032B264 /* NSObject+HitoThemeCategory.m */; };
+		18308B701F0F2BF000ABC816 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18308B6F1F0F2BF000ABC816 /* main.m */; };
+		18308B731F0F2BF000ABC816 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18308B721F0F2BF000ABC816 /* AppDelegate.m */; };
+		18308B761F0F2BF000ABC816 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18308B751F0F2BF000ABC816 /* ViewController.m */; };
+		18308B791F0F2BF000ABC816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18308B771F0F2BF000ABC816 /* Main.storyboard */; };
+		18308B7B1F0F2BF000ABC816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18308B7A1F0F2BF000ABC816 /* Assets.xcassets */; };
+		18308B7E1F0F2BF000ABC816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18308B7C1F0F2BF000ABC816 /* LaunchScreen.storyboard */; };
+		18308B891F0F2BF000ABC816 /* HitoThemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18308B881F0F2BF000ABC816 /* HitoThemeTests.m */; };
+		18308B941F0F2BF000ABC816 /* HitoThemeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18308B931F0F2BF000ABC816 /* HitoThemeUITests.m */; };
+		18308BB71F0F2C2800ABC816 /* centerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18308BA31F0F2C2800ABC816 /* centerViewController.m */; };
+		18308BB81F0F2C2800ABC816 /* HitoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18308BA51F0F2C2800ABC816 /* HitoViewController.m */; };
+		18308BB91F0F2C2800ABC816 /* nextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18308BA71F0F2C2800ABC816 /* nextViewController.m */; };
+		18308BBA1F0F2C2800ABC816 /* NSObject+HitoThemeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18308BAA1F0F2C2800ABC816 /* NSObject+HitoThemeCategory.m */; };
+		18308BBB1F0F2C2800ABC816 /* HitoNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18308BAD1F0F2C2800ABC816 /* HitoNavViewController.m */; };
+		18308BBC1F0F2C2800ABC816 /* HitoTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18308BB11F0F2C2800ABC816 /* HitoTabBar.m */; };
+		18308BBD1F0F2C2800ABC816 /* HitoTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18308BB31F0F2C2800ABC816 /* HitoTabBarViewController.m */; };
+		18308BBE1F0F2C2800ABC816 /* UIView+HitoCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18308BB61F0F2C2800ABC816 /* UIView+HitoCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		18D8DBB91F0DDAE70032B264 /* PBXContainerItemProxy */ = {
+		18308B851F0F2BF000ABC816 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 18D8DB971F0DDAE70032B264 /* Project object */;
+			containerPortal = 18308B631F0F2BF000ABC816 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 18D8DB9E1F0DDAE70032B264;
+			remoteGlobalIDString = 18308B6A1F0F2BF000ABC816;
 			remoteInfo = HitoTheme;
 		};
-		18D8DBC41F0DDAE70032B264 /* PBXContainerItemProxy */ = {
+		18308B901F0F2BF000ABC816 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 18D8DB971F0DDAE70032B264 /* Project object */;
+			containerPortal = 18308B631F0F2BF000ABC816 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 18D8DB9E1F0DDAE70032B264;
+			remoteGlobalIDString = 18308B6A1F0F2BF000ABC816;
 			remoteInfo = HitoTheme;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18D8DB9F1F0DDAE70032B264 /* HitoTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitoTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18D8DBA31F0DDAE70032B264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18D8DBA51F0DDAE70032B264 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		18D8DBA61F0DDAE70032B264 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18D8DBAC1F0DDAE70032B264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18D8DBAE1F0DDAE70032B264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18D8DBB11F0DDAE70032B264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18D8DBB31F0DDAE70032B264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D8DBB81F0DDAE70032B264 /* HitoThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitoThemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18D8DBBC1F0DDAE70032B264 /* HitoThemeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitoThemeTests.m; sourceTree = "<group>"; };
-		18D8DBBE1F0DDAE70032B264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D8DBC31F0DDAE70032B264 /* HitoThemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitoThemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18D8DBC71F0DDAE70032B264 /* HitoThemeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitoThemeUITests.m; sourceTree = "<group>"; };
-		18D8DBC91F0DDAE70032B264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D8DBDE1F0DDB5C0032B264 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		18D8DBF31F0E07A50032B264 /* HitoNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitoNavViewController.h; sourceTree = "<group>"; };
-		18D8DBF41F0E07A50032B264 /* HitoNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitoNavViewController.m; sourceTree = "<group>"; };
-		18D8DBF61F0E07AD0032B264 /* HitoTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitoTabBar.h; sourceTree = "<group>"; };
-		18D8DBF71F0E07AD0032B264 /* HitoTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitoTabBar.m; sourceTree = "<group>"; };
-		18D8DBF81F0E07AD0032B264 /* HitoTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitoTabBarViewController.h; sourceTree = "<group>"; };
-		18D8DBF91F0E07AD0032B264 /* HitoTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitoTabBarViewController.m; sourceTree = "<group>"; };
-		18D8DBFD1F0E07BC0032B264 /* HitoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitoViewController.h; sourceTree = "<group>"; };
-		18D8DBFE1F0E07BC0032B264 /* HitoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitoViewController.m; sourceTree = "<group>"; };
-		18D8DBFF1F0E07BC0032B264 /* nextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nextViewController.h; sourceTree = "<group>"; };
-		18D8DC001F0E07BC0032B264 /* nextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nextViewController.m; sourceTree = "<group>"; };
-		18D8DC021F0E07BC0032B264 /* UIView+HitoCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HitoCategory.h"; sourceTree = "<group>"; };
-		18D8DC031F0E07BC0032B264 /* UIView+HitoCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HitoCategory.m"; sourceTree = "<group>"; };
-		18D8DC071F0E0E5E0032B264 /* centerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = centerViewController.h; sourceTree = "<group>"; };
-		18D8DC081F0E0E5E0032B264 /* centerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = centerViewController.m; sourceTree = "<group>"; };
-		18D8DC0B1F0E17EC0032B264 /* NSObject+HitoThemeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HitoThemeCategory.h"; sourceTree = "<group>"; };
-		18D8DC0C1F0E17EC0032B264 /* NSObject+HitoThemeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HitoThemeCategory.m"; sourceTree = "<group>"; };
+		18308B6B1F0F2BF000ABC816 /* HitoTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitoTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18308B6F1F0F2BF000ABC816 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18308B711F0F2BF000ABC816 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18308B721F0F2BF000ABC816 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18308B741F0F2BF000ABC816 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18308B751F0F2BF000ABC816 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18308B781F0F2BF000ABC816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18308B7A1F0F2BF000ABC816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18308B7D1F0F2BF000ABC816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18308B7F1F0F2BF000ABC816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18308B841F0F2BF000ABC816 /* HitoThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitoThemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18308B881F0F2BF000ABC816 /* HitoThemeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitoThemeTests.m; sourceTree = "<group>"; };
+		18308B8A1F0F2BF000ABC816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18308B8F1F0F2BF000ABC816 /* HitoThemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitoThemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18308B931F0F2BF000ABC816 /* HitoThemeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitoThemeUITests.m; sourceTree = "<group>"; };
+		18308B951F0F2BF000ABC816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18308BA21F0F2C2800ABC816 /* centerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = centerViewController.h; sourceTree = "<group>"; };
+		18308BA31F0F2C2800ABC816 /* centerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = centerViewController.m; sourceTree = "<group>"; };
+		18308BA41F0F2C2800ABC816 /* HitoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitoViewController.h; sourceTree = "<group>"; };
+		18308BA51F0F2C2800ABC816 /* HitoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitoViewController.m; sourceTree = "<group>"; };
+		18308BA61F0F2C2800ABC816 /* nextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nextViewController.h; sourceTree = "<group>"; };
+		18308BA71F0F2C2800ABC816 /* nextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nextViewController.m; sourceTree = "<group>"; };
+		18308BA91F0F2C2800ABC816 /* NSObject+HitoThemeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HitoThemeCategory.h"; sourceTree = "<group>"; };
+		18308BAA1F0F2C2800ABC816 /* NSObject+HitoThemeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HitoThemeCategory.m"; sourceTree = "<group>"; };
+		18308BAC1F0F2C2800ABC816 /* HitoNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitoNavViewController.h; sourceTree = "<group>"; };
+		18308BAD1F0F2C2800ABC816 /* HitoNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitoNavViewController.m; sourceTree = "<group>"; };
+		18308BAE1F0F2C2800ABC816 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18308BB01F0F2C2800ABC816 /* HitoTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitoTabBar.h; sourceTree = "<group>"; };
+		18308BB11F0F2C2800ABC816 /* HitoTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitoTabBar.m; sourceTree = "<group>"; };
+		18308BB21F0F2C2800ABC816 /* HitoTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitoTabBarViewController.h; sourceTree = "<group>"; };
+		18308BB31F0F2C2800ABC816 /* HitoTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitoTabBarViewController.m; sourceTree = "<group>"; };
+		18308BB51F0F2C2800ABC816 /* UIView+HitoCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HitoCategory.h"; sourceTree = "<group>"; };
+		18308BB61F0F2C2800ABC816 /* UIView+HitoCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HitoCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18D8DB9C1F0DDAE70032B264 /* Frameworks */ = {
+		18308B681F0F2BF000ABC816 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18D8DBB51F0DDAE70032B264 /* Frameworks */ = {
+		18308B811F0F2BF000ABC816 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18D8DBC01F0DDAE70032B264 /* Frameworks */ = {
+		18308B8C1F0F2BF000ABC816 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -100,133 +103,135 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18D8DB961F0DDAE70032B264 = {
+		18308B621F0F2BF000ABC816 = {
 			isa = PBXGroup;
 			children = (
-				18D8DBA11F0DDAE70032B264 /* HitoTheme */,
-				18D8DBBB1F0DDAE70032B264 /* HitoThemeTests */,
-				18D8DBC61F0DDAE70032B264 /* HitoThemeUITests */,
-				18D8DBA01F0DDAE70032B264 /* Products */,
+				18308B6D1F0F2BF000ABC816 /* HitoTheme */,
+				18308B871F0F2BF000ABC816 /* HitoThemeTests */,
+				18308B921F0F2BF000ABC816 /* HitoThemeUITests */,
+				18308B6C1F0F2BF000ABC816 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18D8DBA01F0DDAE70032B264 /* Products */ = {
+		18308B6C1F0F2BF000ABC816 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18D8DB9F1F0DDAE70032B264 /* HitoTheme.app */,
-				18D8DBB81F0DDAE70032B264 /* HitoThemeTests.xctest */,
-				18D8DBC31F0DDAE70032B264 /* HitoThemeUITests.xctest */,
+				18308B6B1F0F2BF000ABC816 /* HitoTheme.app */,
+				18308B841F0F2BF000ABC816 /* HitoThemeTests.xctest */,
+				18308B8F1F0F2BF000ABC816 /* HitoThemeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18D8DBA11F0DDAE70032B264 /* HitoTheme */ = {
+		18308B6D1F0F2BF000ABC816 /* HitoTheme */ = {
 			isa = PBXGroup;
 			children = (
-				18D8DBA51F0DDAE70032B264 /* AppDelegate.h */,
-				18D8DBA61F0DDAE70032B264 /* AppDelegate.m */,
-				18D8DBDE1F0DDB5C0032B264 /* PrefixHeader.pch */,
-				18D8DC0A1F0E17740032B264 /* HitoTheme */,
-				18D8DBFC1F0E07BC0032B264 /* controller */,
-				18D8DC011F0E07BC0032B264 /* view */,
-				18D8DBF21F0E07530032B264 /* nav */,
-				18D8DBF11F0E073D0032B264 /* tabBar */,
-				18D8DBAB1F0DDAE70032B264 /* Main.storyboard */,
-				18D8DBAE1F0DDAE70032B264 /* Assets.xcassets */,
-				18D8DBB01F0DDAE70032B264 /* LaunchScreen.storyboard */,
-				18D8DBB31F0DDAE70032B264 /* Info.plist */,
-				18D8DBA21F0DDAE70032B264 /* Supporting Files */,
+				18308B711F0F2BF000ABC816 /* AppDelegate.h */,
+				18308B721F0F2BF000ABC816 /* AppDelegate.m */,
+				18308B741F0F2BF000ABC816 /* ViewController.h */,
+				18308B751F0F2BF000ABC816 /* ViewController.m */,
+				18308BAE1F0F2C2800ABC816 /* PrefixHeader.pch */,
+				18308BA11F0F2C2800ABC816 /* controller */,
+				18308BA81F0F2C2800ABC816 /* HitoTheme */,
+				18308BAB1F0F2C2800ABC816 /* nav */,
+				18308BAF1F0F2C2800ABC816 /* tabBar */,
+				18308BB41F0F2C2800ABC816 /* view */,
+				18308B771F0F2BF000ABC816 /* Main.storyboard */,
+				18308B7A1F0F2BF000ABC816 /* Assets.xcassets */,
+				18308B7C1F0F2BF000ABC816 /* LaunchScreen.storyboard */,
+				18308B7F1F0F2BF000ABC816 /* Info.plist */,
+				18308B6E1F0F2BF000ABC816 /* Supporting Files */,
 			);
 			path = HitoTheme;
 			sourceTree = "<group>";
 		};
-		18D8DBA21F0DDAE70032B264 /* Supporting Files */ = {
+		18308B6E1F0F2BF000ABC816 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				18D8DBA31F0DDAE70032B264 /* main.m */,
+				18308B6F1F0F2BF000ABC816 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		18D8DBBB1F0DDAE70032B264 /* HitoThemeTests */ = {
+		18308B871F0F2BF000ABC816 /* HitoThemeTests */ = {
 			isa = PBXGroup;
 			children = (
-				18D8DBBC1F0DDAE70032B264 /* HitoThemeTests.m */,
-				18D8DBBE1F0DDAE70032B264 /* Info.plist */,
+				18308B881F0F2BF000ABC816 /* HitoThemeTests.m */,
+				18308B8A1F0F2BF000ABC816 /* Info.plist */,
 			);
 			path = HitoThemeTests;
 			sourceTree = "<group>";
 		};
-		18D8DBC61F0DDAE70032B264 /* HitoThemeUITests */ = {
+		18308B921F0F2BF000ABC816 /* HitoThemeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				18D8DBC71F0DDAE70032B264 /* HitoThemeUITests.m */,
-				18D8DBC91F0DDAE70032B264 /* Info.plist */,
+				18308B931F0F2BF000ABC816 /* HitoThemeUITests.m */,
+				18308B951F0F2BF000ABC816 /* Info.plist */,
 			);
 			path = HitoThemeUITests;
 			sourceTree = "<group>";
 		};
-		18D8DBF11F0E073D0032B264 /* tabBar */ = {
+		18308BA11F0F2C2800ABC816 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				18D8DBF81F0E07AD0032B264 /* HitoTabBarViewController.h */,
-				18D8DBF91F0E07AD0032B264 /* HitoTabBarViewController.m */,
-				18D8DBF61F0E07AD0032B264 /* HitoTabBar.h */,
-				18D8DBF71F0E07AD0032B264 /* HitoTabBar.m */,
-			);
-			path = tabBar;
-			sourceTree = "<group>";
-		};
-		18D8DBF21F0E07530032B264 /* nav */ = {
-			isa = PBXGroup;
-			children = (
-				18D8DBF31F0E07A50032B264 /* HitoNavViewController.h */,
-				18D8DBF41F0E07A50032B264 /* HitoNavViewController.m */,
-			);
-			path = nav;
-			sourceTree = "<group>";
-		};
-		18D8DBFC1F0E07BC0032B264 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				18D8DBFD1F0E07BC0032B264 /* HitoViewController.h */,
-				18D8DBFE1F0E07BC0032B264 /* HitoViewController.m */,
-				18D8DBFF1F0E07BC0032B264 /* nextViewController.h */,
-				18D8DC001F0E07BC0032B264 /* nextViewController.m */,
-				18D8DC071F0E0E5E0032B264 /* centerViewController.h */,
-				18D8DC081F0E0E5E0032B264 /* centerViewController.m */,
+				18308BA21F0F2C2800ABC816 /* centerViewController.h */,
+				18308BA31F0F2C2800ABC816 /* centerViewController.m */,
+				18308BA41F0F2C2800ABC816 /* HitoViewController.h */,
+				18308BA51F0F2C2800ABC816 /* HitoViewController.m */,
+				18308BA61F0F2C2800ABC816 /* nextViewController.h */,
+				18308BA71F0F2C2800ABC816 /* nextViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
 		};
-		18D8DC011F0E07BC0032B264 /* view */ = {
+		18308BA81F0F2C2800ABC816 /* HitoTheme */ = {
 			isa = PBXGroup;
 			children = (
-				18D8DC021F0E07BC0032B264 /* UIView+HitoCategory.h */,
-				18D8DC031F0E07BC0032B264 /* UIView+HitoCategory.m */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		18D8DC0A1F0E17740032B264 /* HitoTheme */ = {
-			isa = PBXGroup;
-			children = (
-				18D8DC0B1F0E17EC0032B264 /* NSObject+HitoThemeCategory.h */,
-				18D8DC0C1F0E17EC0032B264 /* NSObject+HitoThemeCategory.m */,
+				18308BA91F0F2C2800ABC816 /* NSObject+HitoThemeCategory.h */,
+				18308BAA1F0F2C2800ABC816 /* NSObject+HitoThemeCategory.m */,
 			);
 			path = HitoTheme;
+			sourceTree = "<group>";
+		};
+		18308BAB1F0F2C2800ABC816 /* nav */ = {
+			isa = PBXGroup;
+			children = (
+				18308BAC1F0F2C2800ABC816 /* HitoNavViewController.h */,
+				18308BAD1F0F2C2800ABC816 /* HitoNavViewController.m */,
+			);
+			path = nav;
+			sourceTree = "<group>";
+		};
+		18308BAF1F0F2C2800ABC816 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				18308BB01F0F2C2800ABC816 /* HitoTabBar.h */,
+				18308BB11F0F2C2800ABC816 /* HitoTabBar.m */,
+				18308BB21F0F2C2800ABC816 /* HitoTabBarViewController.h */,
+				18308BB31F0F2C2800ABC816 /* HitoTabBarViewController.m */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+		18308BB41F0F2C2800ABC816 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18308BB51F0F2C2800ABC816 /* UIView+HitoCategory.h */,
+				18308BB61F0F2C2800ABC816 /* UIView+HitoCategory.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18D8DB9E1F0DDAE70032B264 /* HitoTheme */ = {
+		18308B6A1F0F2BF000ABC816 /* HitoTheme */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18D8DBCC1F0DDAE70032B264 /* Build configuration list for PBXNativeTarget "HitoTheme" */;
+			buildConfigurationList = 18308B981F0F2BF000ABC816 /* Build configuration list for PBXNativeTarget "HitoTheme" */;
 			buildPhases = (
-				18D8DB9B1F0DDAE70032B264 /* Sources */,
-				18D8DB9C1F0DDAE70032B264 /* Frameworks */,
-				18D8DB9D1F0DDAE70032B264 /* Resources */,
+				18308B671F0F2BF000ABC816 /* Sources */,
+				18308B681F0F2BF000ABC816 /* Frameworks */,
+				18308B691F0F2BF000ABC816 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -234,74 +239,74 @@
 			);
 			name = HitoTheme;
 			productName = HitoTheme;
-			productReference = 18D8DB9F1F0DDAE70032B264 /* HitoTheme.app */;
+			productReference = 18308B6B1F0F2BF000ABC816 /* HitoTheme.app */;
 			productType = "com.apple.product-type.application";
 		};
-		18D8DBB71F0DDAE70032B264 /* HitoThemeTests */ = {
+		18308B831F0F2BF000ABC816 /* HitoThemeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18D8DBCF1F0DDAE70032B264 /* Build configuration list for PBXNativeTarget "HitoThemeTests" */;
+			buildConfigurationList = 18308B9B1F0F2BF000ABC816 /* Build configuration list for PBXNativeTarget "HitoThemeTests" */;
 			buildPhases = (
-				18D8DBB41F0DDAE70032B264 /* Sources */,
-				18D8DBB51F0DDAE70032B264 /* Frameworks */,
-				18D8DBB61F0DDAE70032B264 /* Resources */,
+				18308B801F0F2BF000ABC816 /* Sources */,
+				18308B811F0F2BF000ABC816 /* Frameworks */,
+				18308B821F0F2BF000ABC816 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				18D8DBBA1F0DDAE70032B264 /* PBXTargetDependency */,
+				18308B861F0F2BF000ABC816 /* PBXTargetDependency */,
 			);
 			name = HitoThemeTests;
 			productName = HitoThemeTests;
-			productReference = 18D8DBB81F0DDAE70032B264 /* HitoThemeTests.xctest */;
+			productReference = 18308B841F0F2BF000ABC816 /* HitoThemeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		18D8DBC21F0DDAE70032B264 /* HitoThemeUITests */ = {
+		18308B8E1F0F2BF000ABC816 /* HitoThemeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18D8DBD21F0DDAE70032B264 /* Build configuration list for PBXNativeTarget "HitoThemeUITests" */;
+			buildConfigurationList = 18308B9E1F0F2BF000ABC816 /* Build configuration list for PBXNativeTarget "HitoThemeUITests" */;
 			buildPhases = (
-				18D8DBBF1F0DDAE70032B264 /* Sources */,
-				18D8DBC01F0DDAE70032B264 /* Frameworks */,
-				18D8DBC11F0DDAE70032B264 /* Resources */,
+				18308B8B1F0F2BF000ABC816 /* Sources */,
+				18308B8C1F0F2BF000ABC816 /* Frameworks */,
+				18308B8D1F0F2BF000ABC816 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				18D8DBC51F0DDAE70032B264 /* PBXTargetDependency */,
+				18308B911F0F2BF000ABC816 /* PBXTargetDependency */,
 			);
 			name = HitoThemeUITests;
 			productName = HitoThemeUITests;
-			productReference = 18D8DBC31F0DDAE70032B264 /* HitoThemeUITests.xctest */;
+			productReference = 18308B8F1F0F2BF000ABC816 /* HitoThemeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18D8DB971F0DDAE70032B264 /* Project object */ = {
+		18308B631F0F2BF000ABC816 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = KennyHito;
 				TargetAttributes = {
-					18D8DB9E1F0DDAE70032B264 = {
+					18308B6A1F0F2BF000ABC816 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 3PV6M3KT2L;
 						ProvisioningStyle = Automatic;
 					};
-					18D8DBB71F0DDAE70032B264 = {
+					18308B831F0F2BF000ABC816 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 3PV6M3KT2L;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 18D8DB9E1F0DDAE70032B264;
+						TestTargetID = 18308B6A1F0F2BF000ABC816;
 					};
-					18D8DBC21F0DDAE70032B264 = {
+					18308B8E1F0F2BF000ABC816 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 3PV6M3KT2L;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 18D8DB9E1F0DDAE70032B264;
+						TestTargetID = 18308B6A1F0F2BF000ABC816;
 					};
 				};
 			};
-			buildConfigurationList = 18D8DB9A1F0DDAE70032B264 /* Build configuration list for PBXProject "HitoTheme" */;
+			buildConfigurationList = 18308B661F0F2BF000ABC816 /* Build configuration list for PBXProject "HitoTheme" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -309,37 +314,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 18D8DB961F0DDAE70032B264;
-			productRefGroup = 18D8DBA01F0DDAE70032B264 /* Products */;
+			mainGroup = 18308B621F0F2BF000ABC816;
+			productRefGroup = 18308B6C1F0F2BF000ABC816 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18D8DB9E1F0DDAE70032B264 /* HitoTheme */,
-				18D8DBB71F0DDAE70032B264 /* HitoThemeTests */,
-				18D8DBC21F0DDAE70032B264 /* HitoThemeUITests */,
+				18308B6A1F0F2BF000ABC816 /* HitoTheme */,
+				18308B831F0F2BF000ABC816 /* HitoThemeTests */,
+				18308B8E1F0F2BF000ABC816 /* HitoThemeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18D8DB9D1F0DDAE70032B264 /* Resources */ = {
+		18308B691F0F2BF000ABC816 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D8DBB21F0DDAE70032B264 /* LaunchScreen.storyboard in Resources */,
-				18D8DBAF1F0DDAE70032B264 /* Assets.xcassets in Resources */,
-				18D8DBAD1F0DDAE70032B264 /* Main.storyboard in Resources */,
+				18308B7E1F0F2BF000ABC816 /* LaunchScreen.storyboard in Resources */,
+				18308B7B1F0F2BF000ABC816 /* Assets.xcassets in Resources */,
+				18308B791F0F2BF000ABC816 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18D8DBB61F0DDAE70032B264 /* Resources */ = {
+		18308B821F0F2BF000ABC816 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18D8DBC11F0DDAE70032B264 /* Resources */ = {
+		18308B8D1F0F2BF000ABC816 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -349,67 +354,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18D8DB9B1F0DDAE70032B264 /* Sources */ = {
+		18308B671F0F2BF000ABC816 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D8DC091F0E0E5E0032B264 /* centerViewController.m in Sources */,
-				18D8DC041F0E07BC0032B264 /* HitoViewController.m in Sources */,
-				18D8DBA71F0DDAE70032B264 /* AppDelegate.m in Sources */,
-				18D8DBFB1F0E07AD0032B264 /* HitoTabBarViewController.m in Sources */,
-				18D8DBF51F0E07A50032B264 /* HitoNavViewController.m in Sources */,
-				18D8DBA41F0DDAE70032B264 /* main.m in Sources */,
-				18D8DC051F0E07BC0032B264 /* nextViewController.m in Sources */,
-				18D8DC0D1F0E17EC0032B264 /* NSObject+HitoThemeCategory.m in Sources */,
-				18D8DC061F0E07BC0032B264 /* UIView+HitoCategory.m in Sources */,
-				18D8DBFA1F0E07AD0032B264 /* HitoTabBar.m in Sources */,
+				18308B761F0F2BF000ABC816 /* ViewController.m in Sources */,
+				18308BB71F0F2C2800ABC816 /* centerViewController.m in Sources */,
+				18308BBB1F0F2C2800ABC816 /* HitoNavViewController.m in Sources */,
+				18308BBA1F0F2C2800ABC816 /* NSObject+HitoThemeCategory.m in Sources */,
+				18308BBE1F0F2C2800ABC816 /* UIView+HitoCategory.m in Sources */,
+				18308BBC1F0F2C2800ABC816 /* HitoTabBar.m in Sources */,
+				18308B731F0F2BF000ABC816 /* AppDelegate.m in Sources */,
+				18308BBD1F0F2C2800ABC816 /* HitoTabBarViewController.m in Sources */,
+				18308BB91F0F2C2800ABC816 /* nextViewController.m in Sources */,
+				18308B701F0F2BF000ABC816 /* main.m in Sources */,
+				18308BB81F0F2C2800ABC816 /* HitoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18D8DBB41F0DDAE70032B264 /* Sources */ = {
+		18308B801F0F2BF000ABC816 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D8DBBD1F0DDAE70032B264 /* HitoThemeTests.m in Sources */,
+				18308B891F0F2BF000ABC816 /* HitoThemeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18D8DBBF1F0DDAE70032B264 /* Sources */ = {
+		18308B8B1F0F2BF000ABC816 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D8DBC81F0DDAE70032B264 /* HitoThemeUITests.m in Sources */,
+				18308B941F0F2BF000ABC816 /* HitoThemeUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		18D8DBBA1F0DDAE70032B264 /* PBXTargetDependency */ = {
+		18308B861F0F2BF000ABC816 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18D8DB9E1F0DDAE70032B264 /* HitoTheme */;
-			targetProxy = 18D8DBB91F0DDAE70032B264 /* PBXContainerItemProxy */;
+			target = 18308B6A1F0F2BF000ABC816 /* HitoTheme */;
+			targetProxy = 18308B851F0F2BF000ABC816 /* PBXContainerItemProxy */;
 		};
-		18D8DBC51F0DDAE70032B264 /* PBXTargetDependency */ = {
+		18308B911F0F2BF000ABC816 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18D8DB9E1F0DDAE70032B264 /* HitoTheme */;
-			targetProxy = 18D8DBC41F0DDAE70032B264 /* PBXContainerItemProxy */;
+			target = 18308B6A1F0F2BF000ABC816 /* HitoTheme */;
+			targetProxy = 18308B901F0F2BF000ABC816 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18D8DBAB1F0DDAE70032B264 /* Main.storyboard */ = {
+		18308B771F0F2BF000ABC816 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18D8DBAC1F0DDAE70032B264 /* Base */,
+				18308B781F0F2BF000ABC816 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		18D8DBB01F0DDAE70032B264 /* LaunchScreen.storyboard */ = {
+		18308B7C1F0F2BF000ABC816 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18D8DBB11F0DDAE70032B264 /* Base */,
+				18308B7D1F0F2BF000ABC816 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -417,7 +423,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		18D8DBCA1F0DDAE70032B264 /* Debug */ = {
+		18308B961F0F2BF000ABC816 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -465,7 +471,7 @@
 			};
 			name = Debug;
 		};
-		18D8DBCB1F0DDAE70032B264 /* Release */ = {
+		18308B971F0F2BF000ABC816 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -507,7 +513,7 @@
 			};
 			name = Release;
 		};
-		18D8DBCD1F0DDAE70032B264 /* Debug */ = {
+		18308B991F0F2BF000ABC816 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -522,7 +528,7 @@
 			};
 			name = Debug;
 		};
-		18D8DBCE1F0DDAE70032B264 /* Release */ = {
+		18308B9A1F0F2BF000ABC816 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -537,7 +543,7 @@
 			};
 			name = Release;
 		};
-		18D8DBD01F0DDAE70032B264 /* Debug */ = {
+		18308B9C1F0F2BF000ABC816 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -550,7 +556,7 @@
 			};
 			name = Debug;
 		};
-		18D8DBD11F0DDAE70032B264 /* Release */ = {
+		18308B9D1F0F2BF000ABC816 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -563,7 +569,7 @@
 			};
 			name = Release;
 		};
-		18D8DBD31F0DDAE70032B264 /* Debug */ = {
+		18308B9F1F0F2BF000ABC816 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 3PV6M3KT2L;
@@ -575,7 +581,7 @@
 			};
 			name = Debug;
 		};
-		18D8DBD41F0DDAE70032B264 /* Release */ = {
+		18308BA01F0F2BF000ABC816 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 3PV6M3KT2L;
@@ -590,40 +596,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18D8DB9A1F0DDAE70032B264 /* Build configuration list for PBXProject "HitoTheme" */ = {
+		18308B661F0F2BF000ABC816 /* Build configuration list for PBXProject "HitoTheme" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18D8DBCA1F0DDAE70032B264 /* Debug */,
-				18D8DBCB1F0DDAE70032B264 /* Release */,
+				18308B961F0F2BF000ABC816 /* Debug */,
+				18308B971F0F2BF000ABC816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18D8DBCC1F0DDAE70032B264 /* Build configuration list for PBXNativeTarget "HitoTheme" */ = {
+		18308B981F0F2BF000ABC816 /* Build configuration list for PBXNativeTarget "HitoTheme" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18D8DBCD1F0DDAE70032B264 /* Debug */,
-				18D8DBCE1F0DDAE70032B264 /* Release */,
+				18308B991F0F2BF000ABC816 /* Debug */,
+				18308B9A1F0F2BF000ABC816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		18D8DBCF1F0DDAE70032B264 /* Build configuration list for PBXNativeTarget "HitoThemeTests" */ = {
+		18308B9B1F0F2BF000ABC816 /* Build configuration list for PBXNativeTarget "HitoThemeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18D8DBD01F0DDAE70032B264 /* Debug */,
-				18D8DBD11F0DDAE70032B264 /* Release */,
+				18308B9C1F0F2BF000ABC816 /* Debug */,
+				18308B9D1F0F2BF000ABC816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		18D8DBD21F0DDAE70032B264 /* Build configuration list for PBXNativeTarget "HitoThemeUITests" */ = {
+		18308B9E1F0F2BF000ABC816 /* Build configuration list for PBXNativeTarget "HitoThemeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18D8DBD31F0DDAE70032B264 /* Debug */,
-				18D8DBD41F0DDAE70032B264 /* Release */,
+				18308B9F1F0F2BF000ABC816 /* Debug */,
+				18308BA01F0F2BF000ABC816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18D8DB971F0DDAE70032B264 /* Project object */;
+	rootObject = 18308B631F0F2BF000ABC816 /* Project object */;
 }

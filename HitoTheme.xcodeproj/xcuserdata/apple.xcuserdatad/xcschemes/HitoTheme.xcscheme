@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18D8DB9E1F0DDAE70032B264"
+               BlueprintIdentifier = "18308B6A1F0F2BF000ABC816"
                BuildableName = "HitoTheme.app"
                BlueprintName = "HitoTheme"
                ReferencedContainer = "container:HitoTheme.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18D8DBB71F0DDAE70032B264"
+               BlueprintIdentifier = "18308B831F0F2BF000ABC816"
                BuildableName = "HitoThemeTests.xctest"
                BlueprintName = "HitoThemeTests"
                ReferencedContainer = "container:HitoTheme.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18D8DBC21F0DDAE70032B264"
+               BlueprintIdentifier = "18308B8E1F0F2BF000ABC816"
                BuildableName = "HitoThemeUITests.xctest"
                BlueprintName = "HitoThemeUITests"
                ReferencedContainer = "container:HitoTheme.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18D8DB9E1F0DDAE70032B264"
+            BlueprintIdentifier = "18308B6A1F0F2BF000ABC816"
             BuildableName = "HitoTheme.app"
             BlueprintName = "HitoTheme"
             ReferencedContainer = "container:HitoTheme.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18D8DB9E1F0DDAE70032B264"
+            BlueprintIdentifier = "18308B6A1F0F2BF000ABC816"
             BuildableName = "HitoTheme.app"
             BlueprintName = "HitoTheme"
             ReferencedContainer = "container:HitoTheme.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18D8DB9E1F0DDAE70032B264"
+            BlueprintIdentifier = "18308B6A1F0F2BF000ABC816"
             BuildableName = "HitoTheme.app"
             BlueprintName = "HitoTheme"
             ReferencedContainer = "container:HitoTheme.xcodeproj">
